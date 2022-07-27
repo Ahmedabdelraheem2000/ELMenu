@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F3F3F3"
+    tools:context=".Card.Card">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scrol_card_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_card"
+      >
+
+        <RelativeLayout
+            android:id="@+id/relative_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relative_resturent_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image_resturent_Card"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    app:cardCornerRadius="15dp"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/image_shop_card_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/crepe" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/title_resturent_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/image_resturent_Card"
+                    android:fontFamily="@font/fairuz_bold"
+                    android:text="مطعم مودز"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/address_resturent_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_resturent_card"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/image_resturent_Card"
+                    android:fontFamily="@font/s"
+                    android:text="وسط البلد بجوار نادي الشرطة"
+                    android:textColor="@color/Gray"
+                    android:textSize="17dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/text_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative_resturent_card"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:background="#F3F3F3"
+                android:fontFamily="@font/fairuz_bold"
+                android:paddingRight="15dp"
+                android:text="طلباتي"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_order"
+                android:layout_marginTop="10dp"
+                android:padding="15dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CardView_serviece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recycler_card"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/white"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+
+                        android:id="@+id/total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_weight="0.5"
+                        android:text="250"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="0.5"
+                        android:text="المجموع" />
+
+
+                        <TextView
+                            android:id="@+id/service_fee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:layout_below="@+id/total"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginBottom="10dp"
+
+                            android:text="3"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/t2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/t1"
+                            android:layout_marginBottom="10dp"
+
+                            android:text="رسوم الخدمة" />
+
+
+                        <TextView
+                            android:id="@+id/delivery_fee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/service_fee"
+                            android:layout_alignParentLeft="true"
+                            android:text="10"
+                            android:layout_marginBottom="10dp"
+
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="right|top"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@+id/t2"
+                            android:text="رسوم خدة التوصيل" />
+
+
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <EditText
+                android:id="@+id/note_card"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/CardView_serviece"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/s"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="right|top"
+                android:hint="اكتب ملاحظاتك"
+                android:padding="8dp" />
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/button_card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Orange"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="visible"
+        android:onClick="push_now"
+        android:fontFamily="@font/fairuz_bold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="ادفع الان"
+        android:textColor="@color/white"
+
+        android:textSize="15dp" />
+
+</RelativeLayout>

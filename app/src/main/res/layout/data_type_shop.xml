@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_margin="13dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground"
+
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_type_shop1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/crepe"
+        android:scaleType="centerCrop"
+        />
+
+        <TextView
+            android:id="@+id/Name_type_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:background="@color/black"
+            android:fontFamily="@font/almarai"
+            android:text="مطاعم"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

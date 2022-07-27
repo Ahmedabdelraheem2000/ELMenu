@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_item_detials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/h"
+                android:text="كريب مكس جبن"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/lable_item_detials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/s"
+                android:text="جبن,طماطم,كاتشب,خيار"
+                android:textColor="@color/black"
+                android:alpha="0.5"
+                android:textSize="17dp"
+                tools:ignore="DuplicateIds" />
+
+
+
+            <TextView
+                android:id="@+id/size_item_detials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/s"
+                android:text="الحجم : وسط"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/price_item_detials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/h"
+                    android:text="20 جنيه"
+                    android:textColor="@color/Orange"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/count_detials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="@font/gilorobold"
+                    android:gravity="center"
+                    android:text="1 x"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

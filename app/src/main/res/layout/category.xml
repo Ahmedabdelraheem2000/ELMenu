@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/Category_CardView"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground"
+    android:outlineSpotShadowColor="@color/Gray"
+    android:outlineAmbientShadowColor="@color/Gray"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_Category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="كريب"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:fontFamily="@font/fairuz_bold"
+        />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable-v24/card.xml" value="0.1855" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/btn_register.xml" value="0.1855" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/ic_card.xml" value="0.1855" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/process.xml" value="0.1875" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/search_button.xml" value="0.1875" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/search_icon.xml" value="0.1875" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/sign_in_btn.xml" value="0.1875" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_forget_password.xml" value="0.264" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_signin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/card_order.xml" value="0.264" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/category.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/data_type_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/detials_order.xml" value="0.264" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment__card.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_save_product.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/image_type_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/next_show_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/order_details.xml" value="0.264" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/radio_button_sizeandprice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/requirment.xml" value="0.264" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/requirments_process.xml" value="0.4" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/show_product.xml" value="0.176" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/show_shop.xml" value="0.72" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1855" />
+        <entry key="..\:/Users/20109/AndroidStudioProjects/firebasedemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable-v24/account.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable-v24/card.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable-v24/home.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable-v24/ic_like.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable-v24/ic_notifation.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/addd.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/btn_register.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/card_edit.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/edittext_search.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/ic_card.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/ic_group.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/image.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/min.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/search_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/drawable/sign_in_btn.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_signin.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/activity_type_shop.xml" value="0.2359375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/card.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/card_order.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/category.xml" value="0.72" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/checkbox_size.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/data_type_shop.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment__card.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_save_product.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/frist_page_show_type_show.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/image_type_shop.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/item.xml" value="0.6" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/next_show_shop.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/offers.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/order_card.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/radio_button_sizeandprice.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/shop.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/show_product.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/layout/show_shop.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/firebasedemo/app/src/main/res/menu/menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".splash_screen">
+
+    <ImageView
+        android:id="@+id/image_spach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_spach"
+        android:layout_marginTop="-30dp"
+        android:text="المنيو قنا"
+        android:fontFamily="@font/almarai"
+        android:textAlignment="center"
+        android:textColor="@color/Orange"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/texts"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="34dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loader"
+        app:lottie_url="REPLACE_JSON_URL" />
+
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/image"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.1"
+        android:text="سجل الان"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/fristname_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="الاسم الاول"
+        android:nextFocusDown="@id/lastname_signup"
+
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/lastname_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:nextFocusDown="@id/email_signup_signup"
+        android:hint="الاسم الخير"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/email_signup_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:nextFocusDown="@id/password_signup_signup"
+        android:hint="الايميل"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/password_signup_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="الباسورد"
+        android:nextFocusDown="@id/phonenumber_signup"
+
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <EditText
+        android:id="@+id/phonenumber_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="رقم الهاتف"
+        android:nextFocusDown="@id/register_btn_signup"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+
+        />
+    <RelativeLayout
+        android:id="@+id/register_btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_register"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/register_text_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="تسجيل"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <ProgressBar
+            android:id="@+id/progressbar_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

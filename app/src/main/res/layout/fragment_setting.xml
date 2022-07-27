@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.fragment_setting">
+
+
+
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+         android:id="@+id/nested_setting"
+       >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       >
+
+      <ImageView
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+         android:src="@drawable/saly"
+         android:layout_gravity="center"
+         />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:text="معلومات عن الملف الشخصي"
+      android:textStyle="bold"
+      android:textSize="25dp"
+       android:layout_gravity="center"
+      android:textColor="@color/black"
+       android:layout_marginBottom="20dp"
+      />
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/f_name"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="10dp"
+
+       android:layout_alignBottom="@+id/back_add_note"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="0dp"
+
+       android:layout_toEndOf="@+id/back_add_note"
+       android:clickable="false"
+         android:enabled="false"
+       android:fontFamily="@font/almarai"
+       android:hint="الاسم الاول"
+       android:inputType="textPersonName"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:textColor="@color/white"
+       android:textColorHint="#737373"
+       android:textSize="25dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:paddingTop="6dp"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+          android:textSize="15dp"
+          />
+   </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/l_name"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="10dp"
+       android:clickable="false"
+       android:enabled="false"
+
+       android:layout_alignBottom="@+id/back_add_note"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="0dp"
+
+       android:layout_toEndOf="@+id/back_add_note"
+
+       android:fontFamily="@font/almarai"
+       android:hint="الاسم الاخير"
+       android:inputType="textPersonName"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:textColor="@color/white"
+       android:textColorHint="#737373"
+       android:textSize="25dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:paddingTop="6dp"
+          android:inputType="textPersonName"
+          android:maxLines="1"
+          android:textSize="15dp" />
+   </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/email"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="10dp"
+       android:clickable="false"
+       android:enabled="false"
+
+       android:layout_alignBottom="@+id/back_add_note"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="0dp"
+
+       android:layout_toEndOf="@+id/back_add_note"
+
+       android:fontFamily="@font/almarai"
+       android:hint="البريد الالكتروني"
+       android:inputType="textPersonName"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:textColor="@color/white"
+       android:textColorHint="#737373"
+       android:textSize="25dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/almarai"
+          android:paddingTop="6dp"
+          android:inputType="textEmailSubject"
+          android:maxLines="1"
+          android:textSize="15dp" />
+   </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/phone"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="10dp"
+
+       android:clickable="false"
+       android:enabled="false"
+
+       android:layout_alignBottom="@+id/back_add_note"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="0dp"
+
+       android:layout_toEndOf="@+id/back_add_note"
+
+       android:fontFamily="@font/almarai"
+       android:hint="رقم الهاتف"
+       android:inputType="textPersonName"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:textColor="@color/white"
+       android:textColorHint="#737373"
+       android:textSize="25dp">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:fontFamily="@font/almarai"
+          android:paddingTop="6dp"
+          android:inputType="phone"
+          android:maxLines="1"
+          android:textSize="15dp" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/logout"
+       android:text="تسجيل الخروج"
+       android:textColor="@color/white"
+       android:layout_centerInParent="true"
+       android:layout_margin="10dp"
+       android:clickable="true"
+       android:focusable="true"
+       android:foreground="?android:attr/selectableItemBackground"
+       android:background="@color/Orange"
+
+       />
+   </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+   <RelativeLayout
+       android:visibility="gone"
+       android:id="@+id/relative_setting"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#888888"
+
+
+       >
+      <androidx.cardview.widget.CardView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:cardCornerRadius="15dp"
+          android:layout_centerInParent="true"
+          >
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:paddingLeft="20dp"
+             android:paddingRight="20dp"
+             android:paddingBottom="15dp"
+             android:paddingTop="15dp"
+             android:orientation="vertical">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برجاء الانتظار"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+         </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+   </RelativeLayout>
+
+</RelativeLayout>

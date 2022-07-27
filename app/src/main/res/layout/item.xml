@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:outlineSpotShadowColor="@color/Gray"
+    android:outlineAmbientShadowColor="@color/Gray"
+
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="?android:selectableItemBackground"
+
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/crepe" />
+
+        <TextView
+            android:id="@+id/name_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/image_item"
+            android:fontFamily="@font/almarai"
+            android:maxLines="2"
+            android:text="كريب شيكولاته"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/price_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toLeftOf="@+id/image_item"
+            android:fontFamily="@font/almarai"
+            android:text="20 جنيه"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:onClick="back"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/photo_required"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل بياناتك لاستكمال الطلب"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fairuz_bold"
+            android:textAlignment="center"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_required"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_alignBottom="@+id/back_add_note"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+
+            android:layout_toEndOf="@+id/back_add_note"
+
+            android:fontFamily="@font/almarai"
+            android:hint="اسمك بالكامل"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#737373"
+            android:textSize="25dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/almarai"
+                android:paddingTop="6dp"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/address_required"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_marginBottom="10dp"
+
+            android:layout_alignBottom="@+id/back_add_note"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+
+            android:layout_toEndOf="@+id/back_add_note"
+
+            android:fontFamily="@font/almarai"
+            android:hint="العنوان"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#737373"
+            android:textSize="25dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/almarai"
+                android:paddingTop="6dp"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone_required"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+
+            android:layout_alignBottom="@+id/back_add_note"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+
+            android:layout_toEndOf="@+id/back_add_note"
+
+            android:fontFamily="@font/almarai"
+            android:hint="رقم الهاتف"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#737373"
+            android:textSize="25dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/almarai"
+                android:paddingTop="6dp"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:textSize="15dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_required"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Orange"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="push_now"
+            android:fontFamily="@font/fairuz_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="اتمام العملية"
+            android:textColor="@color/white"
+
+            android:textSize="15dp" />
+    </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_requirment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@color/black"
+        android:visibility="gone"
+        android:padding="150dp" />
+</RelativeLayout>

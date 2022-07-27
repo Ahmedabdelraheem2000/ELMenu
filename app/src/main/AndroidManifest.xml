@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.halawy.elmenu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firebasedemo">
+        <activity
+            android:name="com.halawy.elmenu.signin"
+            android:exported="false" />
+        <activity
+            android:name="com.halawy.elmenu.Forget_Password"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.Required.Required_Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.signup"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.Details_Order.Details"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.Shop.Show_Shop"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.Next_Show.Next_Show_Shop"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.Card.Card"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.Show_Product.Show_Shop_Product"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.halawy.elmenu.splash_screen"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

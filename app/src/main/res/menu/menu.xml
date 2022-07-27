@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+
+        android:id="@+id/Home"
+        android:icon="@drawable/ic_home"
+        android:title="الصفحة الرئيسة"
+        android:contentDescription="content_description_search"
+        />
+
+    <item
+        android:id="@+id/Card"
+        android:title="مشترياتي "
+        android:icon="@drawable/ic_note"
+        android:contentDescription="content_description_more"
+        />
+
+    <item
+        android:id="@+id/account"
+        android:title="الاعدادات"
+        android:icon="@drawable/account"
+        android:contentDescription="content_description_more"
+        />
+
+</menu>
